@@ -18,15 +18,18 @@ a {
 }
 
 .picture {
-	width:293px;
+	width:24%;
 	margin-top: 5px;
 	margin-left: 2.5px;
   	margin-right: 2.5px;
   	display: inline-block;
+  	justify-content: space-between;
+  	flex-wrap: wrap;
 }
 
 .picture img {
 	width: 100%;
+	flex:0 0 %;
 }
 
 .handle {
