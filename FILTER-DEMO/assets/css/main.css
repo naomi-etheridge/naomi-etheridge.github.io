@@ -1,0 +1,50 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav {
+	width:100%;
+	background-color: lavenderblush;
+	padding:10px;
+	box-shadow: 2px 2px 2px grey;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
+
+.nav-item {
+	display:inline-block;
+	padding: 5px;
+	border:1px solid mediumvioletred;
+	border-radius: 5px;
+	color: mediumvioletred;
+}
+
+.title {
+	font-size: 10.4vw;
+	font-family:Arial Black;
+	color: hotpink;
+	text-align: center;
+	margin-top:75px;
+}
+
+.research {
+	display:flex;
+	flex-wrap:wrap;
+	align-items: flex-end;
+}
+
+.research-item {
+	flex: 0 0 25%;
+	padding:20px;
+	font-size: 16px;
+}
+
+.research-item img {
+ 	width: 100%;
+}

@@ -1,0 +1,37 @@
+body {
+	background-color: #fafafa;
+}
+
+h1 {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 95px;
+	color:#231f20;
+}
+
+a {
+	text-decoration: none;
+	color:#4b4647;
+}
+
+.handle a:hover {
+	color: #6b5fe4;
+}
+
+.picture {
+	width:293px;
+	margin-top: 5px;
+	margin-left: 2.5px;
+  	margin-right: 2.5px;
+  	display: inline-block;
+}
+
+.picture img {
+	width: 100%;
+}
+
+.handle {
+	display: inline-block;
+	text-align: center;
+	width: 624px;
+	vertical-align: top;
+}
