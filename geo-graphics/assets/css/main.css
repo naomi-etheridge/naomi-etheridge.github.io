@@ -1,0 +1,92 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+/*IP*/
+
+.ip {
+	width:100vw;
+	height:100vh;
+	background-color:blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ip-text {
+	font-size: 14vw;
+	color: lime;
+}
+
+/*Checkers*/
+
+.checkers {
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.checkers-black {
+	flex:0 0 50%;
+	height: 50vh;
+	background-image: linear-gradient(black, white);
+}
+
+.checkers-colour {
+	flex:0 0 50%;
+	height: 50vh;
+	background-color: lime;
+}
+
+.checkers-type {
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.checkers-text {
+	font-size:20vw;
+	color: white;
+	border: 10px solid white;
+	padding: 5px;
+	border-radius: 400px 0px 0px 400px;
+}
+
+.user {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgrey;
+}
+
+.avatar {
+	width: 40vw;
+	height: 40vw;
+	display: flex;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	background-image: radial-gradient(transparent, orange);
+}
+
+.letter{
+	color: white;
+	font-size: 30vw;
+}
+
+
+
+

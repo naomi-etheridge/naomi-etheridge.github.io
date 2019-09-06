@@ -1,0 +1,190 @@
+body {
+	font-family: myriad-pro, 'pt Sans', sans-serif;
+	font-size: 32px;
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover span{
+	color: white;
+}
+
+a:visited {
+	color:#04cff2;
+}
+
+a:hover {
+	color:white;
+}
+
+img {
+	display: block;
+}
+
+.nav {
+	width: 100%;
+	padding: 15px;
+	position: fixed;
+	top: 0px;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 1px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: #04cff2;	
+	background-color: black;
+}
+
+.nav-item2 {
+	display: inline-block;
+	padding: 15px 15px 15px 15px;
+	background-color: black;
+	color: black;
+	text-decoration: none;
+	color: #04cff2;	
+	float: right;
+	right: 0px;
+	margin-top: -15px;
+}
+
+.nav-item2:hover{
+	color:white;
+}
+
+.nav-item img {
+	width: 30px;
+	vertical-align: middle;
+}
+
+.nav-header {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+}
+
+.title {
+	width: 100%;
+}
+
+.title img {
+	width: 100%;
+}
+
+.essay {
+	padding: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	color: white;
+}
+
+.text{
+	padding: 10px;
+	flex: 0 0 80%;
+}
+
+.text h1 {
+	font-weight:bold;
+	font-size: 64px;
+	color: #04cff2;
+	margin-bottom: 15px;
+}
+
+.text h2 {
+	font-size: 20px;
+	font-style: normal;
+	margin-bottom: 10vh;
+}
+
+.text h3 {
+	font-size: 20px;
+	margin-top: 3vh;
+	color: #04cff2;
+}
+
+.text p {
+	font-size: 15px;
+	padding-top: 10px;
+	line-height: 110%;
+}
+
+.text i {
+	font-style: italic;
+}
+
+.figure {
+	padding: 3vh 20vh 0vh 12vh; 
+	color:lightgray;
+	flex: 0 0 80%;
+}
+
+.figure img {
+	width:100%;
+}
+
+.figure span{
+	font-size: 12px;
+	color: #04cff2;
+	line-height: initial;
+}
+
+.research {
+	margin-bottom: 70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.research-item {
+	flex: 0 0 33.333%;
+	padding: 30px;
+	transition: 1s;
+}
+
+.research-item img {
+	width: 100%;
+	margin-bottom: 7px;
+}
+
+.research-item span {
+	color: #04cff2;
+}
+
+.research-item:hover img.static {
+	display: none;
+}
+
+.research-item:hover img.rollover {
+	display: block;
+}
+
+.title:hover img.static {
+	display: none;
+}
+
+.title:hover img.rollover {
+	display: block;
+}
+
+img.rollover {
+	display:none;
+}
+
+/*interactive classes*/
+
+.large {
+	flex:0 0 66.666%;
+	transition:1s;
+}
+
+.hide {
+	display: none;
+}
+
+.active {
+	background-color: red;
+}
+
