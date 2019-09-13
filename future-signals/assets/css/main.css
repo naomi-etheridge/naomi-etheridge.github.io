@@ -12,12 +12,8 @@ a:hover span{
 	color: white;
 }
 
-a:visited {
+a:visited span{
 	color:#04cff2;
-}
-
-a:hover {
-	color:white;
 }
 
 img {
@@ -115,6 +111,24 @@ img {
 
 .text i {
 	font-style: italic;
+}
+
+.golem {
+	color:white;
+}
+
+.quote .golem {
+	color: lightgrey;
+}
+
+.golem:hover {
+	color: #04cff2;
+}
+
+.quote {
+	font-style:italic; 
+	padding: 3vh 20vh 0vh 12vh; 
+	color:lightgray;
 }
 
 .figure {

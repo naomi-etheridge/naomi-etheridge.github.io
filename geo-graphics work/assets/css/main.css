@@ -1,0 +1,147 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+/*marble*/
+
+.marble {
+	background-image:radial-gradient(white 60%, dodgerblue) ;
+	display:flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.marble-pic {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	width: 50vw;
+	height: 50vw;
+}
+
+/*mundo*/
+
+.blue-stripe{
+	background-color: blue;
+	display: flex;
+	flex-wrap: wrap;
+	height: 50vh;
+	width:100vw;
+}
+
+.red-stripe{
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	height: 50vh;
+	width:100vw;
+}
+
+.mundo-type {
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.mundo-text {
+	font-size:15vw;
+	font-family: 'Pacifico', cursive;
+	color: white;
+}
+
+/*xeno*/
+.xeno {
+	width: 100vw;
+	height:100vh;
+	background-color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.xeno-text {
+	color: #414042;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10vw;
+}
+
+.xeno-text2 {
+	color: #333132;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10vw;
+}
+
+.xeno-text3 {
+	color: #231f20;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10vw;
+}
+
+/*speaker*/
+.speaker {
+	background-color: yellow;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.speaker-emo {
+	font-size: 15vw;
+}
+
+.speaker-emo:hover .static {
+	display: none;
+}
+
+.speaker-emo:hover .rollover {
+	display: block;
+}
+
+.rollover {
+	display: none;
+}
+
+/*404*/
+.error-left {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.error-right {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items:flex-end;
+	top:0;
+	position: fixed;
+}
+
+
+.error-text {
+	font-family: times new roman, serif;
+	color: blue;
+	font-size: 5vw;
+}
+
