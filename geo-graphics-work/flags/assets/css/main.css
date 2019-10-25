@@ -4,11 +4,59 @@ body {
 }
 
 a {
-	color:red;
+	color:black;
+	text-decoration: none;
 }
 
-/*marble*/
+/*Index*/
+.geograph {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	background-color:gold;
+	font-family: 'PT Serif', sans-serif;
+	padding: 5vw;
+}
 
+h1 {
+	font-size: 5vw;
+}
+
+a:hover {
+	color: floralwhite;
+}
+
+.heading {
+	padding-bottom: 3vh;
+	width: 100vw;
+}
+
+.table {
+	margin-top: 1.5vh;
+	width: 100vw;
+}
+
+.row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid black;
+	padding: 10px;
+}
+
+.title {
+	flex:0 0 50%;
+}
+
+.link {
+	flex:0 0 25%;
+}
+
+.layer {
+	flex:0 0 25%;
+}
+
+
+/*marble*/
 .marble {
 	background-image:radial-gradient(white 60%, dodgerblue) ;
 	display:flex;

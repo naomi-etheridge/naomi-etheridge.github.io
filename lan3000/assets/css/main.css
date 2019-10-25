@@ -1,0 +1,164 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: chartreuse;
+	font-family: 'Arvo', sans-serif;
+}
+
+h1 {
+	font-size: 6vw;
+	font-family: 'Arvo', sans-serif;
+}
+
+h2 {
+	font-size: 2.5vw;
+}
+
+h3 {
+	font-size: 2vw;
+	font-family: 'Arvo', sans-serif;
+	color: chartreuse;
+	font-style: italic;
+	padding-top: 10px;
+	line-height: 125%;
+}
+
+h4 {
+	font-size: 4vw;
+	font-family: 'Arvo', sans-serif;
+	color: white;
+}
+
+p {
+	margin-bottom: 2vh;
+	line-height: 120%;
+}
+
+i {
+	font-style: italic;
+}
+
+b {
+	font-weight: bolder;
+}
+
+.author {
+	font-size: 12px;
+	font-family: 'Arvo', sans-serif;
+	margin-top: -10px;
+}
+
+.homenav {
+	padding-bottom: 10px;
+	font-family: 'Arvo', sans-serif;
+	font-size: 12px;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	color: white;
+	background-color: #1c1c1c;
+	flex:0 0 45%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.left-content {
+	padding: 30px;
+}
+
+.right {
+	color: #1c1c1c;
+	background-color: chartreuse;
+	flex:0 0 55%;
+	height: 100vh;
+	overflow: scroll;	
+}
+
+.right-content {
+	padding: 30px;
+}
+
+.right img {
+	width: 100%;
+}
+
+.indexpic {
+	height: 100vh;
+}
+
+.synopsis {
+	padding-top: 30px;
+	font-size: 16px;
+}
+
+.panel {
+	width: 55vw;
+	height: 100vh;
+	position: fixed;
+	top:0;
+	right: 0;
+	overflow: scroll;
+	display: none;
+	padding: 30px;
+	color: #1c1c1c;
+	font-size: 30px;
+}
+
+.slide-in {
+	display: block;
+	
+}
+
+.btn-books:hover {
+	cursor: pointer;
+	color: chartreuse;
+	font-family: 'Arvo', sans-serif;
+}
+
+.btn-about:hover {
+	cursor: pointer;
+	color: chartreuse;
+	font-family: 'Arvo', sans-serif;
+}
+
+.btn-archive:hover {
+	cursor: pointer;
+	color: chartreuse;
+	font-family: 'Arvo', sans-serif;
+}
+
+.btn-challenge:hover {
+	cursor: pointer;
+	color: chartreuse;
+	font-family: 'Arvo', sans-serif;
+}
+
+.btn-suggestion:hover {
+	cursor: pointer;
+	color: chartreuse;
+	font-family: 'Arvo', sans-serif;
+}
+
+.bookmenu {
+	color: #1c1c1c;
+}
+
+.bookmenu:hover {
+	color: white;
+	font-family: 'Arvo', sans-serif;
+}
+
+

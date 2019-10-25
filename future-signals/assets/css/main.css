@@ -8,12 +8,17 @@ a {
 	text-decoration: none;
 }
 
-a:hover span{
-	color: white;
+span a:visited {
+	color: #04cff2;	
 }
 
-a:visited span{
-	color:#04cff2;
+span a:hover{
+	color: white;	
+}
+
+span:hover {
+	color: white;
+	cursor: pointer;	
 }
 
 img {
@@ -156,6 +161,7 @@ img {
 	flex: 0 0 33.333%;
 	padding: 30px;
 	transition: 1s;
+	justify-content: center;
 }
 
 .research-item img {
@@ -185,6 +191,58 @@ img {
 
 img.rollover {
 	display:none;
+}
+
+.k9buffer {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bufferwindow {
+	width: 50vw;
+	height: 30vw;
+	object-fit: cover;
+}
+
+.buffertext {
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top:0;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 10vw;
+	-webkit-text-stroke: 4px red;
+	font-weight: bold;
+	animation: buffer 1s steps(2, start) infinite;
+}
+
+@keyframes buffer {
+	to {
+		visibility: hidden;
+	}
+}
+
+.chatbubbles {
+	display: flex;
+	width: 100vw;
+	justify-content: flex-end;
+	padding: 3vw;
+}
+
+.bubble {
+	width: 30vw;
+}
+
+.bubble2 {
+	width: 42vw;
 }
 
 /*interactive classes*/
