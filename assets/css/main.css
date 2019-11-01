@@ -1,6 +1,7 @@
 body {
-	font-family: Courier;
-	font-size: 24px;
+	font-family: 'Raleway', serif;
+	font-size: 2.5vh;
+	line-height: 3vh
 }
 
 a {
@@ -13,28 +14,42 @@ a {
 }
 
 .left {
-	color: blue;
-	flex:0 0 50%;
+	color: cornflowerblue;
+	flex:0 0 40%;
 	height: 100vh;
 	overflow: scroll;
 }
 
 .left-content {
-	padding: 10px;
+	padding: 40px;
+}
+
+.middle {
+	color: white;
+	background-color: #bbd0f7;
+	flex:0 0 5%;
+	height: 100vh;
+	overflow: scroll;
 }
 
 .right {
-	color: red;
-	background-color: yellow;
-	flex:0 0 50%;
+	color: white;
+	background-color: cornflowerblue;
+	flex:0 0 55%;
 	height: 100vh;
 	overflow: scroll;	
 }
 
 .right-content {
-	padding: 10px;
+	padding: 40px;
 }
 
 .right img {
 	width: 100%;
+}
+
+h1 {
+	font-family: 'Patua One', cursive;
+	font-size: 10vh;
+	line-height: 9.5vh
 }

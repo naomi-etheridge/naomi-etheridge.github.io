@@ -84,19 +84,32 @@ b {
 	background-color: chartreuse;
 	flex:0 0 55%;
 	height: 100vh;
-	overflow: scroll;	
+	overflow: scroll;
+	justify-content: right;	
 }
 
 .right-content {
 	padding: 30px;
+	flex-wrap: wrap;
 }
 
-.right img {
-	width: 100%;
-}
-
-.indexpic {
+.cover1 img{
+	margin: -30px;
 	height: 100vh;
+	display: block;
+	mix-blend-mode: luminosity;
+	object-fit: fill;
+}
+
+.cover2 img {
+	margin: 0px;
+	height: 100vh;
+	display: block;
+	mix-blend-mode: darken;
+	object-fit: fill;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
 
 .synopsis {

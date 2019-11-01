@@ -133,7 +133,27 @@
     </div>
 
     <div class="panel suggestion">
-      suggestion
+      <h4>Suggestions</h4>
+      <br>
+      <form id="fs-frm" name="basic-rsvp-form" accept-charset="utf-8" action="https://formspree.io/neth0001@student.monash.edu" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <br><input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+     <br><br><label for="full-name">Email address</label>
+    <br><input type="text" name="name" id="full-name" placeholder="email@domain.tld" required="">
+    <br><br><label for="attending">What are you suggesting?</label>
+    <br><select name="attending" id="attending" required="">
+        <option>Select</option>
+        <option value="Book to feature">Book to feature</option>
+        <option value="Challenge">Challenge idea</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br><label for="message">Message</label>
+      <br><textarea rows="5" name="message" id="message" placeholder="Tell us everything about what you are suggesting!" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
     </div>
 
 
