@@ -1,11 +1,15 @@
 body {
 	font-family: 'Raleway', serif;
-	font-size: 2.5vh;
-	line-height: 3vh
+	font-size: 16px;
+	line-height: 18px;
 }
 
 a {
-	color:red;
+	text-decoration: none;
+}
+
+a:visited {
+	color: cornflowerblue;
 }
 
 .grid {
@@ -15,41 +19,68 @@ a {
 
 .left {
 	color: cornflowerblue;
-	flex:0 0 40%;
+	flex:0 0 30%;
 	height: 100vh;
 	overflow: scroll;
-}
-
-.left-content {
 	padding: 40px;
-}
-
-.middle {
-	color: white;
-	background-color: #bbd0f7;
-	flex:0 0 5%;
-	height: 100vh;
-	overflow: scroll;
 }
 
 .right {
 	color: white;
 	background-color: cornflowerblue;
-	flex:0 0 55%;
+	flex:0 0 70%;
 	height: 100vh;
 	overflow: scroll;	
-}
-
-.right-content {
 	padding: 40px;
 }
 
-.right img {
-	width: 100%;
+.panel {
+	width: 70vw;
+	height: 100vh;
+	position: fixed;
+	top:0;
+	right: 0;
+	overflow: scroll;
+	display: none;
+	padding: 30px;
+}
+
+.slide-in {
+	display: block;
+	
 }
 
 h1 {
 	font-family: 'Patua One', cursive;
 	font-size: 10vh;
 	line-height: 9.5vh
+}
+
+.toggle-title {
+	border-top:1.5px solid cornflowerblue;
+	cursor: pointer;
+	font-size: 1.7vw;
+	height: 40px;
+	padding-top: 9px;
+}
+
+.toggle-title:hover {
+	opacity: 50%;
+}
+
+.toggle-content {
+	display: none;
+	font-size: 12px;
+	line-height: 12px;
+	text-overflow: wrap;
+	padding-bottom: 8px;
+}
+
+.item {
+	padding: 2px;
+}
+
+.item:hover {
+	opacity: 50%;
+	cursor: pointer;
 }
