@@ -25,19 +25,18 @@ $( ".title-6" ).click(function() {
   $( ".toggle-6" ).slideToggle( "slow" );
 });
 
+$( ".title-7" ).click(function() {
+  $( ".toggle-7" ).slideToggle( "slow" );
+});
+
 });
 
 $( document ).ready(function() {
     console.log( "ready!" );
 
-$(".btn-about").click(function() {
+$(".btn-puritan").click(function() {
     	$(".panel").removeClass("slide-in");
-  		$(".about").addClass("slide-in");
-	});
-
-$(".btn-home").click(function() {
-    	$(".panel").removeClass("slide-in");
-  		$(".home").addClass("slide-in");
+  		$(".puritan").addClass("slide-in");
 	});
 
 });
