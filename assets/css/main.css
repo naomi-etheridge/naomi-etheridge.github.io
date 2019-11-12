@@ -6,6 +6,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 a:visited {
@@ -84,4 +85,17 @@ h1 {
 	opacity: 50%;
 	cursor: pointer;
 	color: mediumturquoise;
+}
+
+.video {
+	display: flex;
+	flex-wrap: wrap;
+	width: 65vw;
+	height: 50vh;
+	justify-content: center;
+}
+
+iframe {
+	width: 50vw;
+	height: 50vh;
 }
