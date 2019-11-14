@@ -1,7 +1,7 @@
 body {
 	font-family: 'Raleway', serif;
 	font-size: 16px;
-	line-height: 18px;
+	line-height: 20px;
 }
 
 a {
@@ -32,6 +32,7 @@ a:visited {
 	height: 100vh;
 	overflow: scroll;	
 	padding: 40px;
+	display: flex;
 }
 
 .panel {
@@ -57,6 +58,22 @@ h1 {
 	color: mediumturquoise;
 }
 
+p {
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+}
+
+i {
+	font-style: italic;
+}
+
+.date {
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 1vh;
+	opacity: 50%;
+}
+
 .toggle-title {
 	border-top:1.5px solid black;
 	cursor: pointer;
@@ -72,7 +89,7 @@ h1 {
 .toggle-content {
 	display: none;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 14px;
 	text-overflow: wrap;
 	padding-bottom: 8px;
 }
@@ -87,15 +104,43 @@ h1 {
 	color: mediumturquoise;
 }
 
-.video {
+.middle {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 67vw;
+	margin-top: -3vh;
+	padding-right: 2vw;
+}
+
+.video {
 	width: 65vw;
-	height: 50vh;
+}
+
+.logo {
+	height:50vh;
+}
+
+.photo2 {
+	width:31.5vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.photo3 {
+	width:20vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+.photo6 {
+	width:10vw;
 	justify-content: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
 }
 
 iframe {
-	width: 50vw;
-	height: 50vh;
+	width: 65vw;
+	height: 65vh;
 }
