@@ -113,10 +113,6 @@ i {
 	padding-right: 2vw;
 }
 
-.video {
-	width: 65vw;
-}
-
 .logo {
 	height:50vh;
 }
@@ -149,4 +145,10 @@ i {
 iframe {
 	width: 65vw;
 	height: 65vh;
+}
+
+.two {
+	width: 31.5vw;
+	height: 31.5vh;
+	margin-bottom: 5vh;
 }
