@@ -118,22 +118,26 @@ i {
 .photo {
 	width: 65vw;
 	margin-bottom: 3vh;
+	object-fit: contain;
 }
 
 .photo2 {
 	width:31.5vw;
 	margin-bottom: 3vh;
+	object-fit: contain;
 }
 
 .photo3 {
 	width:20vw;
 	margin-bottom: 3vh;
+	object-fit: contain;
 }
 
 .photo6 {
 	width:10vw;
 	justify-content: center;
 	margin-bottom: 3vh;
+	object-fit: contain;
 }
 
 iframe {
