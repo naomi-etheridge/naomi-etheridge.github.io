@@ -44,6 +44,7 @@ a:visited {
 	overflow: scroll;
 	display: none;
 	padding: 30px;
+	background-color: white;
 }
 
 .slide-in {
@@ -58,6 +59,19 @@ h1 {
 	color: mediumturquoise;
 }
 
+h2 {
+	font-family: 'Patua One', cursive;
+	font-size: 7vh;
+	color: mediumturquoise;
+	margin-bottom: 7vh;
+}
+
+h3 {
+	font-size: 3vh;
+	font-style: italic;
+	opacity: 50%;
+}
+
 p {
 	margin-bottom: 3vh;
 }
@@ -68,6 +82,13 @@ i {
 
 .date {
 	font-size: 12px;
+	font-style: italic;
+	opacity: 50%;
+	margin-bottom: 1vh;
+}
+
+.blogdate {
+	font-size: 3vh;
 	font-style: italic;
 	opacity: 50%;
 	margin-bottom: 1vh;
@@ -149,4 +170,9 @@ iframe {
 .two {
 	width: 31.5vw;
 	height: 31.5vh;
+}
+
+.blog {
+	width: 70vw;
+	height: 100vh;
 }
