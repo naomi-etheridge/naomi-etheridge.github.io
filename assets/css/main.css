@@ -121,6 +121,12 @@ i {
 	height:50vh;
 }
 
+.photo {
+	width: 65vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
 .photo2 {
 	width:31.5vw;
 	margin-top: 5vh;
