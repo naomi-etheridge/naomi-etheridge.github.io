@@ -29,6 +29,30 @@ $( ".title-7" ).click(function() {
   $( ".toggle-7" ).slideToggle( "slow" );
 });
 
+$( ".m1" ).click(function() {
+  $( ".toggle-id" ).slideToggle( "slow" );
+});
+
+$( ".m2" ).click(function() {
+  $( ".toggle-pub" ).slideToggle( "slow" );
+});
+
+$( ".m3" ).click(function() {
+  $( ".toggle-pho" ).slideToggle( "slow" );
+});
+
+$( ".m4" ).click(function() {
+  $( ".toggle-mul" ).slideToggle( "slow" );
+});
+
+$( ".m5" ).click(function() {
+  $( ".toggle-cod" ).slideToggle( "slow" );
+});
+
+$( ".m6" ).click(function() {
+  $( ".toggle-misc" ).slideToggle( "slow" );
+});
+
 });
 
 $( document ).ready(function() {
