@@ -10,6 +10,10 @@ a {
 	color: black;
 }
 
+a:hover {
+	color: grey;
+}
+
 a:visited {
 	color: black;
 }
@@ -50,6 +54,10 @@ a:visited {
 	display: inline-block;
 }
 
+.toggle-menu:hover {
+	cursor: pointer;
+}
+
 .menu-content {
 	display: none;
 	width: 100%;
@@ -83,37 +91,6 @@ img {
 img:hover {
 	background-color: lightgrey;
 	opacity: 40%;
-}
-
-
-
-.left {
-	color: black;
-	flex:0 0 30%;
-	height: 100vh;
-	overflow: scroll;
-	padding: 40px;
-}
-
-.right {
-	color: black;
-	flex:0 0 70%;
-	height: 100vh;
-	overflow: scroll;	
-	padding: 40px;
-	display: flex;
-}
-
-.panel {
-	width: 70vw;
-	height: 100vh;
-	position: fixed;
-	top:0;
-	right: 0;
-	overflow: scroll;
-	display: none;
-	padding: 30px;
-	background-color: white;
 }
 
 .slide-in {
