@@ -27,7 +27,7 @@ a:visited {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100vw;
-	height: 49vw;
+	height: 50vw;
 	background-color: black;
 	color: white;
 }
@@ -36,7 +36,14 @@ a:visited {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100vw;
-	padding: 90px 50px 50px 50px;
+	padding: 65px 50px 50px 50px;
+}
+
+.headerinfo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	padding: 0px 50px 10px 50px;
 }
 
 .intro {
@@ -76,6 +83,14 @@ a:visited {
 	width: 100%;
 }
 
+.piccontainer {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100vw;
+	padding: 0px 50px 10px 50px;
+}
+
 .square {
 	width:29vw;
 	height: 18vw;
@@ -86,13 +101,13 @@ a:visited {
 	margin-top: 10px;
 }
 
-img {
+.info {
 	object-fit: cover;
 	width: 29vw;
 	height: 18vw;
 }
 
-img:hover {
+.info:hover {
 	background-color: lightgrey;
 	opacity: 40%;
 }
@@ -181,46 +196,50 @@ b {
 	color: mediumturquoise;
 }
 
-.middle {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 67vw;
-	padding-right: 2vw;
-}
-
 .logo {
 	height:50vh;
 }
 
 .photo {
-	width: 65vw;
+	width: 92vw;
 	margin-bottom: 3vh;
 	object-fit: contain;
 }
 
 .photo2 {
-	width:31.5vw;
+	width:45vw;
 	margin-bottom: 3vh;
 	object-fit: contain;
 }
 
 .photo3 {
-	width:20vw;
+	width:30vw;
+	margin-bottom: 3vh;
+	object-fit: contain;
+}
+
+.photo4 {
+	width:22.5vw;
 	margin-bottom: 3vh;
 	object-fit: contain;
 }
 
 .photo6 {
-	width:10vw;
+	width:15vw;
 	justify-content: center;
 	margin-bottom: 3vh;
 	object-fit: contain;
 }
 
 iframe {
-	width: 65vw;
-	height: 65vh;
+	width: 100vw;
+	height: 90vh;
+	margin-bottom: 3vh;
+}
+
+.half {
+	width: 45vw;
+	height: 50vh;
 	margin-bottom: 3vh;
 }
 
