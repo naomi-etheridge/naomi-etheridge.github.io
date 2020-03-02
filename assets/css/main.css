@@ -203,32 +203,32 @@ b {
 .photo {
 	width: 92vw;
 	margin-bottom: 3vh;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 .photo2 {
 	width:45vw;
 	margin-bottom: 3vh;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 .photo3 {
 	width:30vw;
 	margin-bottom: 3vh;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 .photo4 {
 	width:22.5vw;
 	margin-bottom: 3vh;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 .photo6 {
 	width:15vw;
 	justify-content: center;
 	margin-bottom: 3vh;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 iframe {
